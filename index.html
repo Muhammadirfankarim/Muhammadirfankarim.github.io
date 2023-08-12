@@ -12,7 +12,7 @@
             justify-content: center;
             min-height: 100vh;
             margin: 0;
-            background-image: url('nn.jpg'); /* Set your AI GIF as the background */
+            background-image: url('nn.jpg');
             background-size: cover;
             background-position: center;
             font-family: Arial, sans-serif;
@@ -23,11 +23,27 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: rgba(241, 239, 239, 0.8); /* Set a semi-transparent white background for chatbot */
+            background-color: rgba(241, 239, 239, 0.8);
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            color: black; /* Set text color for chatbot container */
+            color: black;
+        }
+        
+        #social-links {
+            margin-top: 15px;
+        }
+        
+        #social-links img {
+            margin: 0 10px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+        
+        #social-links img:hover {
+            opacity: 0.7;
         }
     </style>
 </head>
@@ -43,6 +59,13 @@
             height="430"
             src="https://console.dialogflow.com/api-client/demo/embedded/1ef05f4e-2f54-4854-891e-9ff78bc2b894">
         </iframe>
+
+        <div id="social-links">
+            <!-- Replace the `#` with the links to your profiles -->
+            <a href="linkedin.com/in/muhammad-irfan-karim-/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="github.com/Muhammadirfankarim" target="_blank"><img src="github.png" alt="Github"></a>
+            <a href="instagram.com/irfan.karim_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+        </div>
     </div>
 </body>
 </html>
